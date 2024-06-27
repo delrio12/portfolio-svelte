@@ -3,28 +3,40 @@ import type { Education } from '../types';
 
 export const items: Array<Education> = [
 	{
-		degree: 'Bachelor degree of Computer Science',
+		degree: 'Google Cybersecurity Specialization',
 		description: '',
-		location: 'Tunisia',
+		location: 'Canada',
 		logo: Assets.Unknown,
 		name: '',
-		organization: 'ISTIC',
-		period: { from: new Date(2020, 0, 1), to: new Date(2022, 5, 1) },
+		organization: 'Google',
+		period: { from: new Date(2024, 0, 1), to: new Date(2024, 6, 30) },
 		shortDescription: '',
-		slug: 'dummy-education-item',
-		subjects: ['C', 'Algorithm', 'Algebra', 'Python', 'C++', 'Java', 'English']
+		slug: 'dummy-education-item-1',
+		subjects: ['Python', 'SQL', 'SIEM tools', 'Intrusion Detection Systems']
 	},
 	{
-		degree: 'PhD of Computer Science',
-		description: '',
-		location: 'USA',
+		degree: 'Computer Programming Diploma',
+		description: 'I have strong skills in both front-end and back-end development, which help me create dynamic, responsive, and data-driven applications. My solid understanding of these programming languages and technologies allows me to solve complex problems efficiently and develop effective solutions for various computing environments.',
+		location: 'Canada',
 		logo: Assets.Unknown,
 		name: '',
-		organization: 'MIT',
-		period: { from: new Date(2023, 0, 1) },
+		organization: 'Seneca Polytechnic',
+		period: { from: new Date(2019, 0, 1), to: new Date(2021, 0, 1) },
 		shortDescription: '',
 		slug: 'dummy-education-item-2',
-		subjects: ['Assembly', 'Rust', 'Computer Architecture', 'Algorithms and Data structures']
+		subjects: ['C', 'C++', 'Java','Html5', 'CSS', 'JavaScript', 'SQL', 'Data Structures and Algorithms']
+	},
+	{
+		degree: 'Bachelor of Financial Engineering',
+		description: '',
+		location: 'Colombia',
+		logo: Assets.Unknown,
+		name: '',
+		organization: 'Uiversidad Autonoma de Bucaramanga',
+		period: { from: new Date(2012, 0, 1), to: new Date(2017, 0, 1)},
+		shortDescription: '',
+		slug: 'dummy-education-item-3',
+		subjects: ['VBA', 'Risk Management and Derivatives', 'Portfolio Management', 'Financial Modeling and Analysis', ]
 	}
 ];
 

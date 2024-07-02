@@ -4,37 +4,41 @@ import type { Project } from '../types';
 
 export const items: Array<Project> = [
 	{
-		slug: 'slick-portfolio-angular',
+		slug: 'crypto-app',
 		color: '#5e95e3',
 		description:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
+			'Created a website that shows basic information about the Cryptocurrency market. It has a list of the most important cryptocurrencies in the market and also includes a News page updated in real time!',
 		shortDescription:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
-		links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
+			'Created a website that shows basic information about the Cryptocurrency market. It has a list of the most important cryptocurrencies in the market and also includes a News page updated in real time!',
+		links: [{ to: 'https://delrio12.github.io/crypto-app/', label: 'Website' },
+				{ to: 'https://github.com/delrio12/crypto-app', label: 'GitHub' }
+		],
 		logo: Assets.Unknown,
-		name: 'Slick Portfolio',
+		name: 'CryptoRiver App',
 		period: {
 			from: new Date()
 		},
-		skills: getSkills('angular', 'ts', 'tailwind'),
-		type: 'Website Template'
+		skills: getSkills('reactjs', 'ts', 'css'),
+		type: 'Website App'
 	},
 	{
-		slug: 'slick-portfolio-svelte',
+		slug: 'tesla-clone',
 		color: '#ff3e00',
 		description:
-			'A Vercel-like developer portfolio website template made with Typescript and SvelteKit.',
+			'A Clone of the mainpage of Telsa 2021 website.',
 		shortDescription:
-			'A Vercel-like developer portfolio website template made with Typescript and SvelteKit.',
-		links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
+			'A Clone of the mainpage of Telsa 2021 website.',
+		links: [{ to: 'https://delrio12.github.io/tesla-clone/', label: 'Website' },
+				{ to: 'https://github.com/delrio12/tesla-clone', label: 'GitHub' }
+		],
 		logo: Assets.Svelte,
-		name: 'Slick Portfolio',
+		name: 'Tesla Mainpage Clone',
 		period: {
-			from: new Date()
+			from: new Date("2021-07-01")
 		},
-		skills: getSkills('svelte', 'ts', 'tailwind', 'sass'),
+		skills: getSkills('svelte', 'ts', 'tailwind', 'sass', 'reactjs'),
 		type: 'Website Template',
-		screenshots: [
+		/* screenshots: [
 			{
 				label: 'screen 1',
 				src: 'https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZ3JhbW1pbmd8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60'
@@ -59,8 +63,27 @@ export const items: Array<Project> = [
 				label: '6',
 				src: 'https://images.unsplash.com/photo-1585079542156-2755d9c8a094?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHByb2dyYW1taW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60'
 			}
-		]
-	}
+		]*/
+	},
+	{
+		slug: 'twitter-clone',
+		color: '#5e95e3',
+		description:
+			'Created a Twitter clone that has a few features that allows users to tweet and attach a GIF or URL.',
+		shortDescription:
+			'Created a Twitter clone that has a few features that allows users to tweet and attach a GIF or URL.',
+		links: [{ to: 'https://delrio12.github.io/twitter-clone/', label: 'Website' },
+				{ to: 'https://github.com/delrio12/twitter-clone', label: 'GitHub' }
+		],
+		logo: Assets.Unknown,
+		name: 'Twitter Clone',
+		period: {
+			from: new Date("2022-08-01"),
+			to: new Date("2022-12-01")
+		},
+		skills: getSkills('reactjs', 'ts', 'css', 'reactjs'),
+		type: 'Website App'
+	},
 ];
 
 export const title = 'Projects';

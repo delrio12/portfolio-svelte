@@ -84,6 +84,26 @@ export const items: Array<Project> = [
 		skills: getSkills('reactjs', 'ts', 'css', 'reactjs'),
 		type: 'Website App'
 	},
+	{
+		slug: 'article-preview-component-master',
+		color: '#5e95e3',
+		description:
+			'Created an article preview component for Front-End Mentor first challenge.',
+		shortDescription:
+			'Created an article preview component for Front-End Mentor first challenge.',
+		links: [{ to: 'https://delrio12.github.io/article-preview-component-master/', label: 'Website' },
+				{ to: 'https://github.com/delrio12/article-preview-component-master', label: 'GitHub' }
+		],
+		logo: Assets.Unknown,
+		name: 'Article Preview Component',
+		period: {
+			from: new Date("2024-01-01"),
+			to: new Date("2024-01-03")
+		},
+		skills: getSkills('javascript', 'html', 'css'),
+		type: 'Component'
+	},
+
 ];
 
 export const title = 'Projects';

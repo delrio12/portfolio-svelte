@@ -37,7 +37,7 @@ export const items: Array<Project> = [
 			from: new Date("2021-07-01")
 		},
 		skills: getSkills('svelte', 'ts', 'tailwind', 'sass', 'reactjs'),
-		type: 'Website Template',
+		type: 'Website App',
 		/* screenshots: [
 			{
 				label: 'screen 1',
@@ -67,7 +67,7 @@ export const items: Array<Project> = [
 	},
 	{
 		slug: 'twitter-clone',
-		color: '#5e95e3',
+		color: '#65743A',
 		description:
 			'Created a Twitter clone that has a few features that allows users to tweet and attach a GIF or URL.',
 		shortDescription:
@@ -86,7 +86,7 @@ export const items: Array<Project> = [
 	},
 	{
 		slug: 'article-preview-component-master',
-		color: '#5e95e3',
+		color: '#EFDD8D',
 		description:
 			'Created an article preview component for Front-End Mentor first challenge.',
 		shortDescription:
@@ -105,7 +105,7 @@ export const items: Array<Project> = [
 	},
 	{
 		slug: 'newsletter-email',
-		color: '#5e95e3',
+		color: '#59114D',
 		description:
 			'Created a newsletter email using HTML and CSS only.',
 		shortDescription:

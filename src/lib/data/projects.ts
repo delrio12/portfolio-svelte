@@ -103,7 +103,25 @@ export const items: Array<Project> = [
 		skills: getSkills('javascript', 'html', 'css'),
 		type: 'Component'
 	},
-
+	{
+		slug: 'newsletter-email',
+		color: '#5e95e3',
+		description:
+			'Created a newsletter email using HTML and CSS only.',
+		shortDescription:
+			'Created a newsletter email using HTML and CSS only.',
+		links: [{ to: 'https://delrio12.github.io/newsletter-email/', label: 'Website' },
+				{ to: 'https://github.com/delrio12/newsletter-email', label: 'GitHub' }
+		],
+		logo: Assets.Unknown,
+		name: 'Newsletter Email',
+		period: {
+			from: new Date("2021-08-01"),
+			to: new Date("2024-08-03")
+		},
+		skills: getSkills('html', 'css'),
+		type: 'Email'
+	},
 ];
 
 export const title = 'Projects';

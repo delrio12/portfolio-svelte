@@ -13,7 +13,7 @@ export const items: Array<Project> = [
 		links: [{ to: 'https://delrio12.github.io/crypto-app/', label: 'Website' },
 				{ to: 'https://github.com/delrio12/crypto-app', label: 'GitHub' }
 		],
-		logo: Assets.Unknown,
+		logo: Assets.ReactJs,
 		name: 'CryptoRiver App',
 		period: {
 			from: new Date()
@@ -25,18 +25,18 @@ export const items: Array<Project> = [
 		slug: 'tesla-clone',
 		color: '#ff3e00',
 		description:
-			'A Clone of the mainpage of Telsa 2021 website.',
+			'A Clone of the mainpage of Telsa website. For this project I used styled-components library to write a CSS script in the component and improve overall readability of the script, React Redux library to manage states used in the website, and react-reveal for the animations part.',
 		shortDescription:
-			'A Clone of the mainpage of Telsa 2021 website.',
-		links: [{ to: 'https://delrio12.github.io/tesla-clone/', label: 'Website' },
-				{ to: 'https://github.com/delrio12/tesla-clone', label: 'GitHub' }
+			'A Clone of the mainpage of Telsa website. For this project I used styled-components, React Redux, and react-reveal libraries.',
+		links: [{ to: 'https://delrio12.github.io/tesla-clone-redux/', label: 'Website' },
+				{ to: 'https://github.com/delrio12/tesla-clone-redux', label: 'GitHub' }
 		],
-		logo: Assets.Svelte,
+		logo: Assets.ReactJs,
 		name: 'Tesla Mainpage Clone',
 		period: {
 			from: new Date("2021-07-01")
 		},
-		skills: getSkills('svelte', 'ts', 'tailwind', 'sass', 'reactjs'),
+		skills: getSkills('reactjs', 'css', 'html', 'redux', 'ts'),
 		type: 'Website App',
 		/* screenshots: [
 			{

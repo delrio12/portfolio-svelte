@@ -2,7 +2,7 @@
 	
 	"name": "riadh-adrani",
 	"version": "0.0.1",
-	"homepage": "https://gitname.github.io/react-gh-pages",
+	"homepage": "https://delrio12.github.io/portfolio-svelte",
 	"private": true,
 	"scripts": {
 		"predeploy": "npm run build",

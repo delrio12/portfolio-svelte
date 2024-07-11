@@ -4,9 +4,9 @@
 	
 "version": "0.0.1",
 	
-"homepage": "https://delrio12.github.io/portfolio-svelte",
+"homepage": "https://delrio12.github.io/portfolio-svelte/skills",
 	
-"private": true,
+"private": false,
 	
 "scripts": {
 	
@@ -93,10 +93,7 @@
 "eslint-config-prettier": "^8.5.0",
 	
 	
-"eslint-plugin-svelte": "^2.41.0",
-	
-	
-"eslint-plugin-svelte3": "^4.0.0",
+"eslint-plugin-svelte": "^2.42.0",
 	
 	
 "marked": "^5.1.1",

@@ -4,7 +4,7 @@
 	
 "version": "0.0.1",
 	
-"homepage": "https://delrio12.github.io/portfolio-svelte/",
+"homepage": "https://delrio12.github.io/portfolio-svelte",
 	
 "private": true,
 	
@@ -20,7 +20,7 @@
 "dev": "vite dev",
 	
 	
-"build": "vite build",
+"build": "vite dev",
 	
 	
 "preview": "vite preview",

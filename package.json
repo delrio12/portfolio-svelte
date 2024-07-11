@@ -2,8 +2,11 @@
 	
 	"name": "riadh-adrani",
 	"version": "0.0.1",
+	"homepage": "https://gitname.github.io/react-gh-pages",
 	"private": true,
 	"scripts": {
+		"predeploy": "npm run build",
+ 		"deploy": "gh-pages -d build",
 		"dev": "vite dev",
 		"build": "vite build",
 		"preview": "vite preview",

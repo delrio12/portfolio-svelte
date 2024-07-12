@@ -4,8 +4,6 @@
 	"homepage": "https://delrio12.github.io/portfolio-svelte",
 	"private": false,
 	"scripts": {
-		"predeploy": "npm run build",
-		"deploy": "gh-pages -d build",
 		"dev": "vite dev",
 		"build": "vite build",
 		"preview": "vite preview",

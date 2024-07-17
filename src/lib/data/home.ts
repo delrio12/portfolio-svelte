@@ -17,10 +17,6 @@ export const links: Array<{ platform: Platform; link: string }> = [
 		link: 'https://www.linkedin.com/in/andresdelrio11/'
 	},
 	{
-		platform: Platform.Twitter,
-		link: 'https://twitter.com/devrio11'
-	},
-	{
 		platform: Platform.Email,
 		link: 'addelrio11@gmail.com'
 	}

@@ -75,7 +75,7 @@ export const items: Array<Project> = [
 		links: [{ to: 'https://delrio12.github.io/twitter-clone/', label: 'Website' },
 				{ to: 'https://github.com/delrio12/twitter-clone', label: 'GitHub' }
 		],
-		logo: Assets.Unknown,
+		logo: Assets.ReactJs,
 		name: 'Twitter Clone',
 		period: {
 			from: new Date("2022-08-01"),
@@ -94,7 +94,7 @@ export const items: Array<Project> = [
 		links: [{ to: 'https://delrio12.github.io/article-preview-component-master/', label: 'Website' },
 				{ to: 'https://github.com/delrio12/article-preview-component-master', label: 'GitHub' }
 		],
-		logo: Assets.Unknown,
+		logo: Assets.CSS,
 		name: 'Article Preview Component',
 		period: {
 			from: new Date("2024-01-01"),
@@ -113,7 +113,7 @@ export const items: Array<Project> = [
 		links: [{ to: 'https://delrio12.github.io/newsletter-email/', label: 'Website' },
 				{ to: 'https://github.com/delrio12/newsletter-email', label: 'GitHub' }
 		],
-		logo: Assets.Unknown,
+		logo: Assets.CSS,
 		name: 'Newsletter Email',
 		period: {
 			from: new Date("2021-08-01"),

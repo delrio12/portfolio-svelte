@@ -104,6 +104,25 @@ export const items: Array<Project> = [
 		type: 'Component'
 	},
 	{
+		slug: 'newsletter-sign-up-with-success-message-main',
+		color: '#EFDD8D',
+		description:
+			'Created a Newsletter sign-up component for Front-End Mentor second challenge.',
+		shortDescription:
+			'Created a Newsletter sign-up component for Front-End Mentor second challenge.',
+		links: [{ to: 'https://delrio12.github.io/newsletter-sign-up-with-success-message-main/', label: 'Website' },
+				{ to: 'https://github.com/delrio12/newsletter-sign-up-with-success-message-main', label: 'GitHub' }
+		],
+		logo: Assets.CSS,
+		name: 'Newsletter sign-up component',
+		period: {
+			from: new Date("2024-01-01"),
+			to: new Date("2024-01-03")
+		},
+		skills: getSkills('javascript', 'html', 'css'),
+		type: 'Component'
+	},
+	{
 		slug: 'newsletter-email',
 		color: '#59114D',
 		description:
@@ -113,7 +132,7 @@ export const items: Array<Project> = [
 		links: [{ to: 'https://delrio12.github.io/newsletter-email/', label: 'Website' },
 				{ to: 'https://github.com/delrio12/newsletter-email', label: 'GitHub' }
 		],
-		logo: Assets.CSS,
+		logo: Assets.HTML,
 		name: 'Newsletter Email',
 		period: {
 			from: new Date("2021-08-01"),

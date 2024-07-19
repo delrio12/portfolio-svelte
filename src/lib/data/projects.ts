@@ -4,39 +4,41 @@ import type { Project } from '../types';
 
 export const items: Array<Project> = [
 	{
-		slug: 'crypto-app',
-		color: '#5e95e3',
+		slug: 'twitter-clone',
+		color: '#65743A',
 		description:
-			'Created a website that shows basic information about the Cryptocurrency market. It has a list of the most important cryptocurrencies in the market and also includes a News page updated in real time!',
+			'I created a clone of the Twitter website that allows users to write tweets and save them in a database. This project was completed using ReactJS, CSS for styling, Firestore from Firebase as a real-time database, Material-UI for icons and designs, and react-flip-move to enhance the website with dynamic transitions and animations.',
 		shortDescription:
-			'Created a website that shows basic information about the Cryptocurrency market. It has a list of the most important cryptocurrencies in the market and also includes a News page updated in real time!',
-		links: [{ to: 'https://delrio12.github.io/crypto-app/', label: 'Website' },
-				{ to: 'https://github.com/delrio12/crypto-app', label: 'GitHub' }
+			'I created a clone of the Twitter website that allows users to write tweets and save them in a database.',
+		links: [{ to: 'https://delrio12.github.io/twitter-clone/', label: 'Website' },
+				{ to: 'https://github.com/delrio12/twitter-clone', label: 'GitHub' }
 		],
 		logo: Assets.ReactJs,
-		name: 'CryptoRiver App',
+		name: 'Twitter clone',
 		period: {
-			from: new Date()
+			from: new Date("2021-02-15"),
+			to: new Date("2021-03-08")
 		},
-		skills: getSkills('reactjs', 'ts', 'css'),
+		skills: getSkills('reactjs', 'css', 'js', 'firebase', 'mui'),
 		type: 'Website App'
 	},
 	{
 		slug: 'tesla-clone',
-		color: '#ff3e00',
+		color: '#5e95e3',
 		description:
-			'A Clone of the mainpage of Telsa website. For this project I used styled-components library to write a CSS script in the component and improve overall readability of the script, React Redux library to manage states used in the website, and react-reveal for the animations part.',
+			'I created a clone of the main page of the Tesla website. For this project, I used styled-components library to write CSS directly in the components, enhancing the overall readability of the code. Additionally, I utilized the React Redux library to manage states across the website, and incorporated react-reveal for animations.',
 		shortDescription:
-			'A Clone of the mainpage of Telsa website. For this project I used styled-components, React Redux, and react-reveal libraries.',
+			'I created a clone of the main page of the Tesla website using ReactJS and React Redux.',
 		links: [{ to: 'https://delrio12.github.io/tesla-clone-redux/', label: 'Website' },
 				{ to: 'https://github.com/delrio12/tesla-clone-redux', label: 'GitHub' }
 		],
 		logo: Assets.ReactJs,
-		name: 'Tesla Mainpage Clone',
+		name: 'Tesla clone',
 		period: {
-			from: new Date("2021-07-01")
+			from: new Date("2024-07-01"),
+			to: new Date("2024-07-15")
 		},
-		skills: getSkills('reactjs', 'css', 'html', 'redux', 'ts'),
+		skills: getSkills('reactjs', 'css', 'redux', 'ts', 'js'),
 		type: 'Website App',
 		/* screenshots: [
 			{
@@ -66,65 +68,65 @@ export const items: Array<Project> = [
 		]*/
 	},
 	{
-		slug: 'twitter-clone',
-		color: '#65743A',
+		slug: 'crypto-app',
+		color: '#ff3e00',
 		description:
-			'Created a Twitter clone that has a few features that allows users to tweet and attach a GIF or URL.',
+			'Created a website that shows basic information about the Cryptocurrency market. It has a list of the most important cryptocurrencies in the market and also includes a News page updated in real time! For this project I used ReactJS, CSS.',
 		shortDescription:
-			'Created a Twitter clone that has a few features that allows users to tweet and attach a GIF or URL.',
-		links: [{ to: 'https://delrio12.github.io/twitter-clone/', label: 'Website' },
-				{ to: 'https://github.com/delrio12/twitter-clone', label: 'GitHub' }
+			'Created a website that shows basic information about the Cryptocurrency market.',
+		links: [{ to: 'https://delrio12.github.io/crypto-app/', label: 'Website' },
+				{ to: 'https://github.com/delrio12/crypto-app', label: 'GitHub' }
 		],
 		logo: Assets.ReactJs,
-		name: 'Twitter Clone',
+		name: 'CryptoRiver app',
 		period: {
-			from: new Date("2022-08-01"),
-			to: new Date("2022-12-01")
+			from: new Date("2022-06-29"),
+			to: new Date("2022-07-06")
 		},
-		skills: getSkills('reactjs', 'ts', 'css', 'reactjs'),
+		skills: getSkills('reactjs', 'ts', 'css', 'js'),
 		type: 'Website App'
 	},
 	{
 		slug: 'article-preview-component-master',
-		color: '#EFDD8D',
+		color: '#65743A',
 		description:
-			'Created an article preview component for Front-End Mentor first challenge.',
+			'I created an article preview component for a Front-End Mentor challenge using HTML, CSS and JavaScript.',
 		shortDescription:
-			'Created an article preview component for Front-End Mentor first challenge.',
+			'I created an article preview component for a Front-End Mentor challenge using HTML, CSS and JavaScript.',
 		links: [{ to: 'https://delrio12.github.io/article-preview-component-master/', label: 'Website' },
 				{ to: 'https://github.com/delrio12/article-preview-component-master', label: 'GitHub' }
 		],
 		logo: Assets.CSS,
-		name: 'Article Preview Component',
+		name: 'Article preview component',
 		period: {
-			from: new Date("2024-01-01"),
-			to: new Date("2024-01-03")
+			from: new Date("2024-04-03"),
+			to: new Date("2024-04-11")
 		},
-		skills: getSkills('javascript', 'html', 'css'),
+		skills: getSkills('js', 'html', 'css'),
 		type: 'Component'
 	},
 	{
 		slug: 'newsletter-sign-up-with-success-message-main',
-		color: '#EFDD8D',
+		color: '#5e95e3',
 		description:
-			'Created a Newsletter sign-up component for Front-End Mentor second challenge.',
+			'Created a Newsletter sign-up component for a Front-End Mentor challenge using HTML, CSS and JavaScript.',
 		shortDescription:
-			'Created a Newsletter sign-up component for Front-End Mentor second challenge.',
+			'Created a Newsletter sign-up component for a Front-End Mentor challenge using HTML, CSS and JavaScript.',
 		links: [{ to: 'https://delrio12.github.io/newsletter-sign-up-with-success-message-main/', label: 'Website' },
 				{ to: 'https://github.com/delrio12/newsletter-sign-up-with-success-message-main', label: 'GitHub' }
 		],
 		logo: Assets.CSS,
 		name: 'Newsletter sign-up component',
 		period: {
-			from: new Date("2024-01-01"),
-			to: new Date("2024-01-03")
+			from: new Date("2024-06-24"),
+			to: new Date()
 		},
-		skills: getSkills('javascript', 'html', 'css'),
+		skills: getSkills('js', 'html', 'css'),
 		type: 'Component'
 	},
 	{
 		slug: 'newsletter-email',
-		color: '#59114D',
+		color: '#ff3e00',
 		description:
 			'Created a newsletter email using HTML and CSS only.',
 		shortDescription:
@@ -135,8 +137,8 @@ export const items: Array<Project> = [
 		logo: Assets.HTML,
 		name: 'Newsletter Email',
 		period: {
-			from: new Date("2021-08-01"),
-			to: new Date("2024-08-03")
+			from: new Date("2024-02-02"),
+			to: new Date("2024-02-04")
 		},
 		skills: getSkills('html', 'css'),
 		type: 'Email'

@@ -22,4 +22,4 @@ export const links: Array<{ platform: Platform; link: string }> = [
 	}
 ];
 
-export const skills = getSkills('js', 'css', 'html', 'reactjs', 'svelte', 'ts', 'mongodb', 'sql');
+export const skills = getSkills('js', 'css', 'html', 'reactjs', 'ts', 'mongodb', 'SQL', 'redux', 'firebase', 'mui');

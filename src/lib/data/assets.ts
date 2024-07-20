@@ -73,7 +73,7 @@ const Assets = {
 	Postcss: a('postcss.svg'),
 	MaterialUI: a('material-ui.svg'),
 	Redux: a('redux.png'),
-	StyledComponents: a('styled-components.svg')
+	StyledComponents: a('styled-components.png')
 };
 
 export default Assets;

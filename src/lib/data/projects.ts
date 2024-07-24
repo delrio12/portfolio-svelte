@@ -69,7 +69,7 @@ export const items: Array<Project> = [
 		slug: 'crypto-app',
 		color: '#ff3e00',
 		description:
-			'Created a website that shows basic information about the Cryptocurrency market. It has a list of the most important cryptocurrencies in the market and also includes a News page updated in real time! For this project I used ReactJS, CSS.',
+			'Created a website that displays basic information about the cryptocurrency market. It features a list of the most important cryptocurrencies and includes a news page updated in real-time. For this project, I used ReactJS and CSS. Redux was implemented to manage the app state. I used Rapid API to connect to the Coinranking API for real-time cryptocurrency information and the Bing News Search API to retrieve news about crypto. The ant-design library was used for icons and design elements, Chart.js for charts, and the moment.js and millify libraries to parse times and transform numbers into readable strings.',
 		shortDescription:
 			'Created a website that shows basic information about the Cryptocurrency market.',
 		links: [{ to: 'https://delrio12.github.io/crypto-app/', label: 'Website' },

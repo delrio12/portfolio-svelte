@@ -172,6 +172,25 @@ export const items: Array<Project> = [
 		]
 		
 	},
+	{
+		slug: 'dr-fit',
+		color: '#5e95e3',
+		description:
+			'Created a website that allow users to find fitness exercises by name, muscle group and equipment. This project was built using ReactJS. I used Material UI for the user interface. I also implemented \'ExerciseDB\' API to fetch exercise images and \'Youtube search and download\' API to suggest instructional videos for each exercise. I used rapidAPI to integrate APIs',
+		shortDescription:
+			'Created a website that allow users to find fitness exercises by name, muscle group and equipment. This project was built using mainly ReactJS.',
+		links: [{ to: 'https://delrio12.github.io/dr-fit', label: 'Website' },
+				{ to: 'https://github.com/delrio12/dr-fit', label: 'GitHub' }
+		],
+		logo: Assets.CSS,
+		name: 'Fitness Exercises Finder',
+		period: {
+			from: new Date("2024-07-08"),
+			to: new Date("2024-08-01")
+		},
+		skills: getSkills('reactjs', 'js', 'html', 'css'),
+		type: 'Website App'
+	},
 ];
 
 export const title = 'Projects';

@@ -182,7 +182,7 @@ export const items: Array<Project> = [
 		links: [{ to: 'https://delrio12.github.io/dr-fit', label: 'Website' },
 				{ to: 'https://github.com/delrio12/dr-fit', label: 'GitHub' }
 		],
-		logo: Assets.CSS,
+		logo: Assets.ReactJs,
 		name: 'Fitness Exercises Finder',
 		period: {
 			from: new Date("2024-07-08"),
